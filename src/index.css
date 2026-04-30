@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  
+  --color-brand-primary: #2D68FF;
+  --color-brand-secondary: #4B85FF;
+  --color-brand-faint: #F0F7FF;
+  --color-brand-rich: #091E42;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply antialiased text-slate-800 bg-white transition-colors duration-300;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100;
+  }
+  
+  .metric-border {
+    @apply border-l-4 border-brand-primary shadow-sm transition-all hover:shadow-md;
+  }
+
+  .skeleton {
+    background: linear-gradient(90deg, #E2E8F0 25%, #F1F5F9 50%, #E2E8F0 75%);
+    background-size: 200% 100%;
+    @apply animate-[pulse_2s_ease-in-out_infinite];
+  }
+
+  .card-triangle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    background: #f3f4f6; /* light gray like design */
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    z-index: 1;
+  }
+}
