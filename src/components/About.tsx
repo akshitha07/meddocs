@@ -49,7 +49,7 @@ export const About = () => {
           >
             <div className="relative z-10">
               <img 
-                src="/src/assets/welcomeImg.png" 
+                src="/assets/welcomeImg.png" 
                 alt="MEDDOCS Welcome" 
                 className="w-full h-auto"
               />
