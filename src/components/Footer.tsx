@@ -9,7 +9,7 @@ export const Footer = () => {
           <div className="col-span-2">
             <div className="flex items-center gap-3 mb-8">
               <img 
-                src="/assets/logo.png" 
+                src="/images/logo.png" 
                 alt="MEDDOCS Logo" 
                 className="h-16 w-auto bg-white p-3 rounded-lg"
               />

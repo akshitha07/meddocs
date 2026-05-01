@@ -1,14 +1,14 @@
 import { Journal, Ebook, HeroSlide, FeaturedArticle } from './types';
 
 export const EBOOKS: Ebook[] = [
-  { id: 1, title: 'Alzheimer\'s Disease and Treatment', image: '/assets/books/alzheimer\'s-disease-and-treatment.jpg' },
-  { id: 2, title: 'Pharmaceutical Chemistry', image: '/assets/books/an-ebook-on-pharmaceutical-chemistry.jpg' },
-  { id: 3, title: 'Vascular Diseases', image: '/assets/books/an-ebook-on-vascular-diseases.jpg' },
-  { id: 4, title: 'Nanotechnology', image: '/assets/books/importance-applications-of-nanotechnology.jpg' },
-  { id: 5, title: 'Modern Chemistry', image: '/assets/books/principles-of-modern-chemistry.jpg' },
-  { id: 6, title: 'Biotechnology', image: '/assets/books/recent-trends-in-biotechnology.jpg' },
-  { id: 7, title: 'Microbiology', image: '/assets/books/research-trends-of-microbiology.jpg' },
-  { id: 8, title: 'Transfusion Medicine', image: '/assets/books/transfusion-medicine.jpg' },
+  { id: 1, title: 'Alzheimer\'s Disease and Treatment', image: '/images/books/alzheimer\'s-disease-and-treatment.jpg' },
+  { id: 2, title: 'Pharmaceutical Chemistry', image: '/images/books/an-ebook-on-pharmaceutical-chemistry.jpg' },
+  { id: 3, title: 'Vascular Diseases', image: '/images/books/an-ebook-on-vascular-diseases.jpg' },
+  { id: 4, title: 'Nanotechnology', image: '/images/books/importance-applications-of-nanotechnology.jpg' },
+  { id: 5, title: 'Modern Chemistry', image: '/images/books/principles-of-modern-chemistry.jpg' },
+  { id: 6, title: 'Biotechnology', image: '/images/books/recent-trends-in-biotechnology.jpg' },
+  { id: 7, title: 'Microbiology', image: '/images/books/research-trends-of-microbiology.jpg' },
+  { id: 8, title: 'Transfusion Medicine', image: '/images/books/transfusion-medicine.jpg' },
 ];
 
 export const JOURNALS: Journal[] = [
@@ -58,17 +58,17 @@ export const JOURNALS: Journal[] = [
 
 export const HERO_SLIDES: HeroSlide[] = [
   {
-    image: "/assets/md-jornals.png",
+    image: "/images/md-jornals.png",
     title: "",
     subtitle: ""
   },
   {
-    image: "/assets/bannerImag.png",
+    image: "/images/bannerImag.png",
     title: "",
     subtitle: ""
   },
   {
-    image: "/assets/heroImg1.png",
+    image: "/images/heroImg1.png",
     title: "",
     subtitle: ""
   }

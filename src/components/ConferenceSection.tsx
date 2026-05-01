@@ -19,7 +19,7 @@ export const ConferenceSection = () => {
           >
             <div className="relative z-10">
               <img 
-                src="/assets/image.png" 
+                src="/images/image.png" 
                 alt="MEDDOCS Conference" 
                 className="w-full h-auto rounded-2xl shadow-[0_20px_60px_rgba(0,0,0,0.15)]"
               />

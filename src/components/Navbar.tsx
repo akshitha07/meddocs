@@ -27,7 +27,7 @@ export const Navbar = ({ searchQuery, setSearchQuery }: NavbarProps) => {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <img 
-            src="/assets/logo.png" 
+            src="/images/logo.png" 
             alt="MEDDOCS Logo" 
             className={`h-11 w-auto transition-all`}
           />
